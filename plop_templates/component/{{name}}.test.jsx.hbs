@@ -1,0 +1,29 @@
+import React from 'react'
+import { render, screen } from '@testing-library/react'
+import { {{name}} } from '.'
+
+describe('{{name}} component', () => {
+  it('renders correctly', () => {
+    render(<{{name}} />)
+
+    // *******Uncomment applicable test case******
+    // In case of multiple elements found,
+    // replace 'get' with 'getAll' for every matcher.
+    // e.g. getByText becomes getAllByText
+    // and replace expect statement as
+    // expect(element.length).toBeGreaterThan(0)
+    
+    // test cases:
+    // const text = screen.getByText(/some text/i)
+    // expect(text).toBeInTheDocument()
+
+    // const element = screen.getByTestId('data-testid')
+    // expect(element).toBeInTheDocument()
+
+    // const element = screen.getByPlaceholderText('input placeholder')
+    // expect(element).toBeInTheDocument()
+
+    // const element = screen.getByLabelText('input placeholder')
+    // expect(element).toBeInTheDocument()
+  })
+})
